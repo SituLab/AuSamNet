@@ -27,7 +27,7 @@ Calculate the model output of the experimental data.
 Some of the subfunctions used in the model.
 ## Notes: 
 In the above files, M1 corresponds to the FSI scheme; M2 corresponds to the FSI-DL scheme; M3 corresponds to our proposed AuSamNet scheme.
-Some files are named in the following format: 
+Some files are named in the following format:      
   Actual sampling ratio ---------  Naming of M2 and M3 --------- Naming of other methods such as DCAN     
   7.5% ------------------------------------ 614 ------------------------------------------- 1228    
   15% -------------------------------------1228--------------------------------------------2457    
