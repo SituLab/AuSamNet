@@ -1,4 +1,14 @@
 # AuSamNet
+AuSamNet: Learning-based adaptive under-sampling for Fourier single-pixel imaging.       
+We provide the experiment data for a quick demo. If you find this project useful, we would be grateful if you cite the AuSamNet paper：   
+   
+   
+   
+In this Letter, we present a learning-based method for efficient Fourier single-pixel imaging (FSI). Based on the auto-encoder, the proposed adaptive under-sampling technique (AuSamNet) manages to optimize a sampling mask and a deep neural network at the same time to achieve both under-sampling of the object image’s Fourier spectrum and high-quality reconstruction from the under-sampled measurements. It is thus helpful in determining the best encoding and decoding scheme for FSI. Simulation and experiments demonstrate that AuSamNet can reconstruct high-quality natural color images even when the sampling ratio is as low as 7.5%. The proposed adaptive undersampling strategy can be used for other computational imaging modalities, such as tomography and ptychography.     
+
+Pipeline：
+![avatar](/1.png)
+
 ## How to use? 
 1. Run eval.py directly to get the network output corresponding to the test dataset.
 2. Run eval_exp.py directly to get the network output corresponding to the experimental data.
